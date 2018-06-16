@@ -1,27 +1,42 @@
-# CorityUiEngineerTest
+![Cority Logo](src/assets/cority-logo.svg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+# UI Engineer Coding Scenario
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Fork your own copy of cority-ui-engineer-test repository to your GitHub account.
+- Rename your new repository to cority-ui-engineer-test-[first name]-[last name]
+- Clone the repository.
+- Install packages and run the project.
+```shell
+npm install
+ng serve
+```
+- To submit your test, please send us the link to your repository.
 
-## Code scaffolding
+## Coding Scenario
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Using the mock-ups provided, build a mobile first list component as follows:
 
-## Build
+You don't have to complete all steps. Complete as much steps as you can.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Using only HTML, create a template for the structure depicted in the mock-ups.
+2. Using CSS, style your template so it matches the mock-ups as closely as possible.
+3. Build list component from your template and import it to the project.
+4. Show the total number of list items in the list header.
 
-## Running unit tests
+### BONUS:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Add collapse functionality to the list component.
+- Configure the component so it loads hardcoded data.
+- Make Add and Delete actions functional.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Component behavior:
 
-## Further help
+- List components can be collapsed by clicking the caret icon. 
+- The entire list item can be clicked to open the record.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+__Note:__ Do NOT use any CSS frameworks or Libraries.
+
+![Wireframe](src/assets/wireframe.png)
