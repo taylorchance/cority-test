@@ -18,12 +18,12 @@ ng serve
 
 ### Using the mock-ups provided, build a mobile first list component as follows:
 
-You don't have to complete all steps. Complete as much steps as you can.
+Do your best to complete as many steps as you can.
 
 1. Using only HTML, create a template for the structure depicted in the mock-ups.
 2. Using CSS, style your template so it matches the mock-ups as closely as possible.
-3. Build list component from your template and import it to the project.
-4. Show the total number of list items in the list header.
+3. Build an Angular list component based on your template and import it to the project.
+4. Show total number of items in the list header.
 
 ### BONUS:
 
@@ -32,11 +32,16 @@ You don't have to complete all steps. Complete as much steps as you can.
 - Make Add and Delete actions functional.
 
 
-## Component behavior:
+### Component behavior:
 
 - List components can be collapsed by clicking the caret icon. 
 - The entire list item can be clicked to open the record.
+- The component should be responsive. Hide list icons in small screen.
 
-__Note:__ Do NOT use any CSS frameworks or Libraries.
+__Note:__ Do NOT use any CSS frameworks or Angular Libraries.
 
-![Wireframe](src/assets/wireframe.png)
+### Desktop
+![Desktop Mock-up](src/assets/desktop.png)
+
+### Mobile
+![Mobile Mock-up](src/assets/mobile.png)
