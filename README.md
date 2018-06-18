@@ -4,14 +4,13 @@
 
 ## Getting Started
 
-- Clone the repository.
-- Rename your new repository to cority-ui-engineer-test-[first name]-[last name]
+- Download the repository.
 - Install packages and run the project ([Node.js](https://nodejs.org/en/) and [Angular CLI](https://github.com/angular/angular-cli) are required).
 ```shell
 npm install
 ng serve
 ```
-- To submit your test, please send us the link to your repository.
+- To submit your test, use GitHub to upload your project and email us the link to your repository.
 
 ## Coding Scenario
 
