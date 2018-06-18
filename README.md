@@ -4,10 +4,9 @@
 
 ## Getting Started
 
-- Fork your own copy of cority-ui-engineer-test repository to your GitHub account.
-- Rename your new repository to cority-ui-engineer-test-[first name]-[last name]
 - Clone the repository.
-- Install packages and run the project.
+- Rename your new repository to cority-ui-engineer-test-[first name]-[last name]
+- Install packages and run the project ([Node.js](https://nodejs.org/en/) and [Angular CLI](https://github.com/angular/angular-cli) are required).
 ```shell
 npm install
 ng serve
@@ -22,8 +21,9 @@ Do your best to complete as many steps as you can.
 
 1. Using only HTML, create a template for the structure depicted in the mock-ups.
 2. Using CSS, style your template so it matches the mock-ups as closely as possible.
-3. Build an Angular list component based on your template and import it to the project.
-4. Show total number of items in the list header.
+3. Create an Angular list component from your code and import it to the project.
+4. Display today's date in the format shown in the mock-ups.
+5. Show total number of items in the list header.
 
 ### BONUS:
 
