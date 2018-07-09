@@ -1,0 +1,43 @@
+<section class="list-component">
+	<header>
+		<div>
+			<h2>List Name <i class="new">{{totalNew}} </i></h2>
+			<p class="total">Total {{items.length}}</p>
+			<h1>total amount {{totalAmount}} </h1>
+		</div>
+		<div class="controls header-controls">
+			<div>
+				<a href="#" class="button"><i class="fas fa-plus"></i></a>
+				<a href="#" class="button" (click)="toggleState()"><i class="fas fa-sort-down"></i></a>
+			</div>
+		</div>
+	</header>
+
+	<div class="slide-wrap" [@openClose]="state">
+		<ul>
+
+			<li *ngFor="let x of items" [ngClass]="{'new': x.new}" (click)="openInfo()">
+				<div class="icon">
+					<div class="image" [ngStyle]="(x.icon) ? {'background-image': 'url('+x.icon+')'} : {}">
+						<i class="far fa-image" *ngIf="!x.icon"></i>
+					</div>
+				</div>
+				<div>
+					<h3>{{x.title}}</h3>
+					<h4>{{x.subtitle}}</h4>
+					<p class="truncate">{{x.description | truncate:[80] }}</p>
+					<p class="date"><i class="far fa-calendar-alt"></i> {{x.date | date:'EE MMMM d y'}}</p>
+				</div>
+				<div class="controls delete" (click)="deleteItem(x)">
+					<a href="#" class="button">
+						<i class="fas fa-trash"></i>
+					</a>
+				</div>
+			</li>
+		</ul>
+
+		<footer>
+			<a href="#">Load more</a>
+		</footer>
+	</div>
+</section>
